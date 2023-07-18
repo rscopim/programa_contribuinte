@@ -51,11 +51,11 @@ public class Programa {
 			for (TaxaPagamento tp : list) {
 				sum += tp.imposto();				
 			}
-			System.out.println("Imposto pago: $ " + String.format("%2f" ,  sum));
+			System.out.println("Imposto pago: $ " + String.format("%2f",  sum));
 					
+		}
 		
 		sc.close();
-	}
 		
 	}
 

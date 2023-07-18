@@ -7,16 +7,16 @@ public class Empresarial extends TaxaPagamento{
 	public Empresarial() {
 		}
 
+	public Empresarial(String nome, Double rendimentoAnual, Integer numeroDeFuncionarios) {
+		super(nome, rendimentoAnual);
+		this.numeroDeFuncionarios = numeroDeFuncionarios;
+	}
+	
 	public Integer getNumeroDeFuncionarios() {
 		return numeroDeFuncionarios;
 	}
 
 	public void setNumeroDeFuncionarios(Integer numeroDeFuncionarios) {
-		this.numeroDeFuncionarios = numeroDeFuncionarios;
-	}
-
-	public Empresarial(String nome, Double rendimentoAnual, Integer numeroDeFuncionarios) {
-		super(nome, rendimentoAnual);
 		this.numeroDeFuncionarios = numeroDeFuncionarios;
 	}
 
