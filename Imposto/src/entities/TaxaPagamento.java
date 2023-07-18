@@ -9,6 +9,7 @@ public abstract class TaxaPagamento {
 		}
 
 	public TaxaPagamento(String nome, Double rendimentoAnual) {
+		super();
 		this.nome = nome;
 		this.rendimentoAnual = rendimentoAnual;
 	}

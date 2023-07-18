@@ -24,7 +24,7 @@ public class Individual extends TaxaPagamento{
 	@Override
 	public double imposto() {
 		double taxaImposto;
-		if (getGastosComSaude() < 20000.0) {
+		if (getRendimentoAnual() < 20000.0) {
 			taxaImposto = getRendimentoAnual() * 0.15;
 		}
 		else {

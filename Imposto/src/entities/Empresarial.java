@@ -3,6 +3,9 @@ package entities;
 public class Empresarial extends TaxaPagamento{
 	
 	private Integer numeroDeFuncionarios;
+	
+	public Empresarial() {
+		}
 
 	public Integer getNumeroDeFuncionarios() {
 		return numeroDeFuncionarios;
